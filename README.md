@@ -3,14 +3,14 @@
   <img src="imgs/pipeline.jpg" alt="train" width="80%">
 </div>
 
-## Reward=  Reward_Diversity + Reward_Representativeness.
+#### Reward=  Reward_Diversity + Reward_Representativeness.
+</br>
 
-where </br>
-  ##### Reward_Representativeness = Pixel Difference between two consecutive images ( MSE between them)
+######  Reward_Representativeness = Pixel Difference between two consecutive images ( MSE between them)
   
   
-My idea </br>
-  ##### Reward_Representativeness = SSIM between two consecutive images 
+Changing it to </br>
+  ###### Reward_Representativeness = SSIM between two consecutive images 
   
   Where </br>
   
@@ -19,7 +19,7 @@ My idea </br>
   luminance (light emitted) , contrast( difference b/w luminance) , image degradation()</br>
 
 
-## Results : 
+## Results (Super Initial) : 
 | Number |  Video | NewMetric | Orignal_Metric |
 | ------------- | ------------- | ------------- |------------- |
 | 1  | video_14  | 28.4%  |28.4%  |
@@ -37,5 +37,5 @@ My idea </br>
 | 4  | video_3  | 35.2%  | 35.2%  |
 | 5  | video_4  | 54.4%  | 47.7%  |
 
-## The Algorithm uses preprocessed data as its input . 
-Right now , working on getting from raw data to output. 
+#### The Algorithm uses preprocessed data as its input . 
+Right now , working on getting from raw data to output + into matrix that what causes these changes. 
