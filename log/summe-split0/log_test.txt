@@ -1,0 +1,20 @@
+==========
+Args:Namespace(beta=0.01, dataset='datasets/eccv16_dataset_summe_google_pool5.h5', evaluate=True, gamma=0.1, gpu='0', hidden_dim=256, input_dim=1024, lr=1e-05, max_epoch=60, metric='summe', num_episode=5, num_layers=1, resume='log/summe-split0/model_epoch60.pth.tar', rnn_cell='lstm', save_dir='log/summe-split0', save_results=True, seed=1, split='datasets/summe_splits.json', split_id=4, stepsize=30, use_cpu=False, verbose=True, weight_decay=1e-05)
+==========
+Currently using CPU
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+Model size: 2.62605M
+Loading checkpoint from 'log/summe-split0/model_epoch60.pth.tar'
+Evaluate only
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  28.4%
+2    video_19  60.8%
+3    video_23  61.7%
+4    video_25  55.3%
+5    video_7   29.2%
+---  --------  -------
+Average F-score 47.1%

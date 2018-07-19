@@ -1,0 +1,71 @@
+==========
+Args:Namespace(beta=0.01, dataset='datasets/eccv16_dataset_ovp_google_pool5.h5', evaluate=False, gamma=0.1, gpu='0', hidden_dim=256, input_dim=1024, lr=1e-05, max_epoch=60, metric='summe', num_episode=5, num_layers=1, resume='', rnn_cell='lstm', save_dir='log/ovp-split0', save_results=False, seed=1, split='datasets/ovp_google_splits.json', split_id=0, stepsize=30, use_cpu=False, verbose=True, weight_decay=1e-05)
+==========
+Currently using CPU
+Initialize dataset datasets/eccv16_dataset_ovp_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+Model size: 2.62605M
+==> Start training
+epoch 1/60	 reward 0.890065151155	
+epoch 2/60	 reward 0.890306934118	
+epoch 3/60	 reward 0.890319381952	
+epoch 4/60	 reward 0.890775724947	
+epoch 5/60	 reward 0.889989902079	
+epoch 6/60	 reward 0.89015331775	
+epoch 7/60	 reward 0.890267256498	
+epoch 8/60	 reward 0.890451333523	
+epoch 9/60	 reward 0.890191624165	
+epoch 10/60	 reward 0.890457128286	
+epoch 11/60	 reward 0.890617317855	
+epoch 12/60	 reward 0.889932753146	
+epoch 13/60	 reward 0.890386699736	
+epoch 14/60	 reward 0.890038997531	
+epoch 15/60	 reward 0.890444837809	
+epoch 16/60	 reward 0.890095849335	
+epoch 17/60	 reward 0.889979033172	
+epoch 18/60	 reward 0.890116599798	
+epoch 19/60	 reward 0.890349754393	
+epoch 20/60	 reward 0.889802627861	
+epoch 21/60	 reward 0.890418082476	
+epoch 22/60	 reward 0.889728116393	
+epoch 23/60	 reward 0.889950171411	
+epoch 24/60	 reward 0.889977477491	
+epoch 25/60	 reward 0.890264196396	
+epoch 26/60	 reward 0.890058222711	
+epoch 27/60	 reward 0.890174305439	
+epoch 28/60	 reward 0.889922500849	
+epoch 29/60	 reward 0.890414586663	
+epoch 30/60	 reward 0.89010881573	
+epoch 31/60	 reward 0.889844772518	
+epoch 32/60	 reward 0.890025402904	
+epoch 33/60	 reward 0.890024705529	
+epoch 34/60	 reward 0.890293245912	
+epoch 35/60	 reward 0.890464953482	
+epoch 36/60	 reward 0.889966423512	
+epoch 37/60	 reward 0.890160045922	
+epoch 38/60	 reward 0.890368608534	
+epoch 39/60	 reward 0.89019682467	
+epoch 40/60	 reward 0.890380863547	
+epoch 41/60	 reward 0.89010063678	
+epoch 42/60	 reward 0.890190205276	
+epoch 43/60	 reward 0.89036593169	
+epoch 44/60	 reward 0.890607487261	
+epoch 45/60	 reward 0.889837543666	
+epoch 46/60	 reward 0.890171256959	
+epoch 47/60	 reward 0.890335539281	
+epoch 48/60	 reward 0.89007039696	
+epoch 49/60	 reward 0.889867120385	
+epoch 50/60	 reward 0.890365187526	
+epoch 51/60	 reward 0.890528137684	
+epoch 52/60	 reward 0.890385187864	
+epoch 53/60	 reward 0.890249272287	
+epoch 54/60	 reward 0.890505591631	
+epoch 55/60	 reward 0.890428057611	
+epoch 56/60	 reward 0.890306587815	
+epoch 57/60	 reward 0.890285131931	
+epoch 58/60	 reward 0.890395839512	
+epoch 59/60	 reward 0.890140528381	
+epoch 60/60	 reward 0.890552913845	
+==> Test
+
