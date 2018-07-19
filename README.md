@@ -19,7 +19,7 @@ Changing it to </br>
   luminance (light emitted) , contrast( difference b/w luminance) , image degradation()</br>
 
 
-## Results (Super Initial) : 
+## Results (Initial) : 
 | Number |  Video | NewMetric | Orignal_Metric |
 | ------------- | ------------- | ------------- |------------- |
 | 1  | video_14  | 28.4%  |28.4%  |
