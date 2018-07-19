@@ -5,76 +5,37 @@
 
 ## Reward=  Reward_Diversity + Reward_Representativeness.
 
-where 
-  #Reward_Representativeness = Pixel Difference between two consecutive images ( MSE between them)
+where </br>
+  ##### Reward_Representativeness = Pixel Difference between two consecutive images ( MSE between them)
   
   
-My idea 
-  #Reward_Representativeness = SSIM between two consecutive images 
+My idea </br>
+  ##### Reward_Representativeness = SSIM between two consecutive images 
   
-  Where 
+  Where </br>
   
-  SSIM : structural similarity (SSIM) index
+  SSIM : structural similarity (SSIM) index</br>
   
-  luminance (light emitted) , contrast( difference b/w luminance) , image degradation()
+  luminance (light emitted) , contrast( difference b/w luminance) , image degradation()</br>
 
 
 ## Results : 
-
-New Metric
-
-| No. | Video |  F-score | <br />
-| --- | -------- | ------- | <br />
-| 1 | video_14 | 28.4% | <br />
-| 2 | video_19 | 60.8% | <br />
-| 3 | video_23 | 58.3% | <br />
-| 4 | video_25 | 55.3% | <br />
-| 5 | video_7 |  29.2% | <br />
+| Number |  Video | NewMetric | Orignal_Metric |
+| ------------- | ------------- | ------------- |------------- |
+| 1  | video_14  | 28.4%  |28.4%  |
+| 2  | video_19  | 60.8%  |28.6%  |
+| 3  | video_23  |58.3%  |61.7%  |
+| 4  | video_25  |55.3%  |55.3%  |
+| 5  | video_7  |29.2%  |29.1%  |
 
 
-| No. | Video |  F-score | <br />
-| --- | -------- | ------- | <br />
-| 1 | video_10 | 26.5% | <br />
-| 2 | video_19 | 60.8% | <br />
-| 3 | video_23 | 58.3% | <br />
-| 4 | video_25 | 55.3% | <br />
-| 5 | video_6 |  21.0% | <br />
+| Number |  Video | NewMetric | Orignal_Metric |
+| ------------- | ------------- | ------------- |------------- |
+| 1  | video_13  | 29.2%  | 50.2%  |
+| 2  | video_16  | 34.9%  | 34.9%  |
+| 3  | video_24  | 29.5%  | 29.5%  |
+| 4  | video_3  | 35.2%  | 35.2%  |
+| 5  | video_4  | 54.4%  | 47.7%  |
 
-
-| No. | Video |  F-score | <br />
-| --- | -------- | --- | <br />
-| 1 | video_13 | 29.2% |<br />
-| 2 | video_16 | 34.9% |<br />
-| 3 | video_24 | 29.5% |<br />
-| 4 | video_3 |  35.2% |<br />
-| 5 | video_4 |  54.4% |<br />
---- | -------- | ------- |<br />
-
-
-Orignal Metric
-
-No. | Video |  F-score | <br />
-1 | video_14 | 28.4%  | <br />
-2 | video_19 | 28.6% | <br />
-3 | video_23 | 61.7% | <br />
-4 | video_25 | 55.3% | <br />
-5 | video_7 |  29.1% | <br />
---- | -------- | ------- | <br />
-
---- | -------- | ------- | <br />
-No. | Video |  F-score | <br />
-1 | video_10 | 26.5% | <br />
-2 | video_19 | 28.6% | <br />
-3 | video_23 | 61.7% | <br />
-4 | video_25 | 55.3% | <br />
-5 | video_6 |  21.0% | <br />
---- | -------- | ------- | <br />
-
-No. | Video |  F-score | <br />
---- | -------- | ------- | <br />
-1 | video_13 | 50.2% | <br />
-2 | video_16 | 34.9% | <br />
-3 | video_24 | 29.5% | <br />
-4 | video_3 |  35.2% | <br />
-5 | video_4 |  47.7% | <br />
---- | -------- | ------- | <br />
+## The Algorithm uses preprocessed data as its input . 
+Right now , working on getting from raw data to output. 
